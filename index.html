@@ -32,8 +32,11 @@
     <li><a href="https://www.linkedin.com/in/tegar-prianiatama/">linkedin</a></li>
   </ul>
   <footer>
-    <p>copyright &copy; 2025</p>
+    <p>copyright &copy; <span id="year"></span></p>
   </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 
 </html>
